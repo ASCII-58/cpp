@@ -31,6 +31,9 @@ int main()
 			output += ' ';
 			cout << output << endl;
 		}
-	}cout << string1<< endl;
-	return 0;
+	}
+	cout << string1<< endl;
+	for(int i;;)
+	{
+	}
 }
