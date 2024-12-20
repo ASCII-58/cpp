@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <windows.h>
+#include <cmath> // 包含cmath库以使用sqrt函数
 using namespace std;
 
 int main()
@@ -20,8 +21,13 @@ int main()
 				}
 				else
 				{
-					Sleep(5);
+					
 					cout << output << j << endl;
+					// 增加计算量
+					for (int k = 0; k < 4000000; k++)
+					{
+						double x = sqrt(k);
+					}
 				}
 			}
 			output += string1[i];
@@ -32,8 +38,5 @@ int main()
 			cout << output << endl;
 		}
 	}
-	cout << string1<< endl;
-	for(int i;;)
-	{
-	}
+	cout << string1 << endl;
 }
